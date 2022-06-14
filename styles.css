@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: white;
+    position: sticky;
+    top:0;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex:auto;
+}
+
+footer{
+    width: 100%;
+    height: 45px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgba(224,29,62,255);
+}
+
+#imag{
+    border-radius: 5px;
+    width: 90%;
+}
+
+h1{
+    margin-right: 150px;
+    font-size: 45px;
+    color: rgba(224,29,62,255);
+}
+
+ul{
+    list-style-type: none;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.title{
+
+    height: 60px;
+    width: 100%;
+    
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title img{
+    height: 50px;
+    margin-top: 15px;
+}
+
+.navbar{
+    background-color: white;
+    border: 5px solid rgba(224,29,62,255);
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+
+.about, .career, .travel, .calisthenics{  
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc{
+    /* background-color: rgba(236, 154, 154, 0.901); */
+    background-color: rgba(224,29,62,255);
+    border-radius: 5px;
+    margin-top: 50px;
+    padding:5%;
+    width: 75%;
+    text-align: justify;
+}
+
+.cont{
+    border-radius: 10px;
+    height: 80%;
+    width: 45%;
+
+    display: flex;
+    justify-content: center;
+
+}
+
